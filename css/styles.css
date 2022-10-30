@@ -290,10 +290,10 @@ a:focus .header-icon {
 .super-section {
   padding: 200px 0;
   background: var(--section-darkgrey);
-  background-image: linear-gradient(
+  background-image: /*linear-gradient(
     rgba(47, 48, 58, 0.4),
     rgba(47, 48, 58, 0.4)
-  ), 
+  ), */
   url(/images/people_develop_a_car_model.jpg);
   background-repeat: no-repeat;
   background-position: center;
