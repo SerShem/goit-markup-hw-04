@@ -219,11 +219,11 @@ a {
 
 .footer-container {
 	display: flex;
+	align-items: baseline;
 }
 
 .footer-container-nav {
 	margin-right: 70px;
-	padding: 0 15px;
 }
 
 .footer-address {
@@ -254,8 +254,12 @@ a {
 	color: var(--text-witetransparent);
 }
 
+.footer-link:hover,
+.footer-link:focus {
+	color: var(--target-blue);
+}
+
 .footer-soc-titel {
-	margin-top: 12px;
 	margin-bottom: 20px;
 
 	font-weight: 700;
@@ -538,13 +542,6 @@ a {
 	margin-bottom: 30px;
 }
 
-.portfolio-cart-list .item:hover {
-	box-shadow:
-		0px 1px 1px rgba(0, 0, 0, 0.12),
-		0px 4px 4px rgba(0, 0, 0, 0.06),
-		1px 4px 6px rgba(0, 0, 0, 0.16);
-}
-
 .portfolio-cart-list .item:nth-child(3n) {
 	margin-right: 0px;
 }
@@ -581,6 +578,13 @@ a {
 
 .portfolio-cart-link {
 	display: block;
+}
+.portfolio-cart-link:hover,
+.portfolio-cart-link:focus {
+	box-shadow:
+		0px 1px 1px rgba(0, 0, 0, 0.12),
+		0px 4px 4px rgba(0, 0, 0, 0.06),
+		1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .portfolio-cart-titel {
